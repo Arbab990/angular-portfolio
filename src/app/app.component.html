@@ -1,0 +1,404 @@
+<script>
+  function leftScroll() {
+    const left = document.querySelector(".Scroll");
+    left.scrollBy(200, 0);
+  }
+  function rightScroll() {
+    const right = document.querySelector(".Scroll");
+    right.scrollBy(-200, 0);
+  }
+</script>
+
+<div class="w-full mx-auto h-full items-center bg-black">
+  <div class="m-auto ease-in transition-all">
+    <nav class="z-55 m-auto w-full fixed">
+      <div class="m-auto items-center justify-center w-10/12">
+        <div
+          class="min-h-[5rem] items-center center flex flex-row justify-between"
+        >
+          <div class="text-3xl text-slate-100 flex-shrink-0">
+            < <span class="text-slate-400">M A</span>
+            <span class="text-blue-800">/</span> >
+          </div>
+          <div
+            class="text-xl text-blue-400 flex flex-row space-x-8 invisible md:visible"
+          >
+            <a href="#home" class="hover:underline transition-all duration-300"
+              >Home</a
+            >
+            <a href="#skills" class="hover:underline">Skills</a>
+            <a href="#portfolio" class="hover:underline">Portfolio</a>
+            <a href="#contact " class="hover:underline">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="home"
+      class="w-10/12 h-screen m-auto flex flex-row justify-between"
+    >
+      <div class="mt-40 md:mt-2 flex flex-col min-h-[40rem] justify-center">
+        <div class="text-2xl text-slate-500">
+          Hi! I am
+          <div class="text-6xl text-blue-500 font-bold">Mohd. Arbab</div>
+        </div>
+        <div class="mt-4 flex text-slate-300 text-4xl font-bold">
+          MERN Developer and a AI/ML Enthusiast!
+        </div>
+        <div class="mt-6 flex text-slate-400 text-lg max-w-[40rem]">
+          I am a B.Tech in Computer Science and Engineering final year student with a specialization in AI, 
+          skilled in web development and latest AI tech stacks.
+           
+        </div>
+
+        <div>
+          <a href="#skills">
+            <button
+              class="animate-pulse mt-8 justify-end items-end text-blue-500 w-36 bg-transparent hover:bg-blue-500 bg-slate-100 font-semibold hover:text-white py-2 px-4 border border-blue-600 hover:border-transparent rounded"
+            >
+              Explore ->
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-col min-h-[50rem] justify-center">
+        <img
+          class="max-h-100 flex-shrink-0 hidden lg:block"
+          src="../assets/fox.png"
+        />
+      </div>
+    </div>
+
+    <div
+      id="skills"
+      class="h-screen m-auto w-10/12 overflow-hidden scrollbar-hide transition-all duration-200 ease-in"
+    >
+      <div
+        class="mt-[10rem] items-start text-6xl justify-start font-light text-slate-900"
+      >
+        My Skills
+      </div>
+
+      <div
+        class="mt-[5rem] w-full justify-center items-center mx-auto pl-10 min-h-[60%] md:min-h-[20%] flex flex-col md:flex-row"
+      >
+        <div class="flex flex-col justify-around min-h-[300px]">
+          <div class="flex">
+            <img
+              src="https://skillicons.dev/icons?i=go,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-300"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=react,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+
+            <img
+              src="https://skillicons.dev/icons?i=flask,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+          </div>
+          <div class="flex">
+            <img
+              src="https://skillicons.dev/icons?i=pytorch,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=express,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=ts,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col justify-around min-h-[300px]">
+          <div class="flex">
+            <img
+              src="https://skillicons.dev/icons?i=tensorflow,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=javascript,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=py,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+          </div>
+          <div class="flex">
+            <img
+              src="https://skillicons.dev/icons?i=mongodb,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=mysql,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=tailwind,&theme=light"
+              class="w-[10rem] transition ease-in-out delay-150 hover:scale-125 duration-30"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="w-full mx-[45%] md:my-[10%]">
+        <a href="#portfolio" class="w-full mx-auto">
+          <button class="animate-bounce justify-end items-endfont-semibold">
+            <div class="w-10 mx-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                  d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z"
+                />
+              </svg>
+            </div>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black md:h-[100vh]">
+    <div class="w-10/12  m-auto">
+      <div id="portfolio" class="mt-[15rem] text-6xl font-light text-black">
+        <div class="mt-[0rem]">My Portfolio</div>
+      </div>
+      <div class="mt-10 text-6xl font-light text-slate-400">My Portfolio</div>
+
+      <div class="flex flex-col md:flex-row space-x-6">
+        <a href="#start" class="mt-[10rem] hidden md:block text-white text-6xl"><</a>
+
+        <div
+          id="Scroll "
+          class="mx-10 overflow-hidden md:overflow-auto flex flex-col md:flex-row max-w-8xl gap-6 p-6 scrollbar-hide scroll-smooth"
+        >
+        <div id="start" class="w-10"></div>
+          <article
+            id="1"
+            class="rounded-xl px-2 min-w-[15rem] md:min-w-[25rem] bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  class="object-contain h-50 w-[350px]"
+                  src="../assets/pixelscribe.jpg"
+                  alt="img"
+                />
+              </div>
+
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700">Pixelscribe</h2>
+                <p class="mt-1 text-sm text-slate-400">
+                  this is a blogging website created with Flask framework.
+                  SQLAlchemy used for database and backend.
+                  Responsive frontend with HTML,CSS and Js.
+                  User authentication pages,login and signup.
+                  
+                </p>
+
+                <div class="mt-3 flex items-end justify-between">
+                  <div
+                    class="flex items-center space-x-1.5 rounded-lg bg-blue-500 px-4 py-1.5 text-white duration-100 hover:bg-blue-600"
+                  >
+                    <a href="https://pixelscribe2-3.onrender.com/">
+                      <button class="text-sm">View</button>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article
+            id="2"
+            class="rounded-xl min-w-[15rem] md:min-w-[25rem] bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="https://arbab990.github.io/Sun-Business-Mobile-Store/">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  class="object-cover h-50 w-[350px]"
+                  src="../assets/mbstore.jpg"
+                  alt="img"
+                />
+              </div>
+
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700">Mobile Store</h2>
+                <p class="mt-1 text-sm text-slate-400">
+                  Built a mobile store website using React and Flask, providing detailed information on products, services, and store location via Google Maps.
+                  Integrated a chatbot for real-time user interaction, enhancing customer engagement
+                  Developed a secure contact form for user data collection, utilizing SQLAlchemy for backend storage.
+                </p>
+
+                <div class="mt-3 flex items-end justify-between">
+                  <div
+                    class="flex items-center space-x-1.5 rounded-lg bg-blue-500 px-4 py-1.5 text-white duration-100 hover:bg-blue-600"
+                  >
+                    <button class="text-sm">View</button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article
+            id="3"
+            class="rounded-xl min-w-[15rem] md:min-w-[25rem] bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="https://fin-smart-app.vercel.app/">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  class="object-cover h-50 w-[350px]"
+                  src="../assets/dashboard.png"
+                  alt="img"
+                />
+              </div>
+
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700">FinSmart App</h2>
+                <p class="mt-1 text-sm text-slate-400">
+                  AI-driven finance management app created to simplify and enhance personal financial tracking!
+                  real-time budgeting, stock investment insights, and smart financial advice using AI
+                  AI Financial Advisor 🧠, leveraging the Gemini API 
+                  Stock Market Integration 📈, with live data from Alpha Vantage
+                  Clerk for authentication
+                </p>
+
+                <div class="mt-3 flex items-end justify-between">
+                  <div
+                    class="flex items-center space-x-1.5 rounded-lg bg-blue-500 px-4 py-1.5 text-white duration-100 hover:bg-blue-600"
+                  >
+                    <button class="text-sm">View</button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article
+            id="4"
+            class="rounded-xl min-w-[15rem] md:min-w-[25rem] bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  class="object-cover h-48 w-[196px]"
+                  src="../assets//komi.png"
+                  alt="img"
+                />
+              </div>
+
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700">Anime search App</h2>
+                <p class="mt-1 text-sm text-slate-400">
+                  A simple anime searchingapp using flutter and anilist, return
+                  the details of the searched anime from anilist apilist with
+                  coverimage. Uses: Flutter, Anilist Api
+                </p>
+
+                <div class="mt-3 flex items-end justify-between">
+                  <div
+                    class="flex items-center space-x-1.5 rounded-lg bg-blue-500 px-4 py-1.5 text-white duration-100 hover:bg-blue-600"
+                  >
+                    <button class="text-sm">View</button>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+          <div id="end" class="w-10"></div>
+          
+        </div>
+        <a href="#end" class="mt-[10rem] hidden md:block text-white text-6xl">></a>
+      </div>
+      
+    </div>
+
+    <footer id="contact" class="bg-black w-full">
+      <div
+        class="min-h-[15rem] items-center center flex flex-row justify-between"
+      >
+        <div
+          class="flex flex-col justify-between w-full max-w-screen-xl mx-auto space-x-8 p-4 md:py-8"
+        >
+          <div
+            class="flex justify-between w-full max-w-screen-xl mx-auto space-x-8"
+          >
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <a
+                href="https://www.github.com/Arbab990"
+                class="flex items-center mb-4 sm:mb-0"
+              >
+                <img
+                  src="../assets/github.svg"
+                  class="h-8 mr-3 fill-white"
+                  alt="Github"
+                />
+                <span
+                  class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                  >Github</span
+                >
+              </a>
+            </div>
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <a
+                href="https://www.linkedin.com/in/mohd-arbab/"
+                class="flex items-center mb-4 sm:mb-0"
+              >
+                <img
+                  src="../assets/linkedin.svg"
+                  class="h-8 mr-3 fill-white"
+                  alt="Github"
+                />
+                <span
+                  class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                  >LinkedIn</span
+                >
+              </a>
+            </div>
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <a
+                href=""
+                class="flex items-center mb-4 sm:mb-0"
+              >
+                <mat-icon class="h-8 mr-3 text-white text-2xl">mail</mat-icon>
+
+                <span
+                  class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                  ></span
+                >
+              </a>
+            </div>
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <a
+                href="https://drive.google.com/file/d/1O2oDKK40tjzEz9fK6RjbG-2Dzc3sJiu4/view?usp=sharing"
+                class="flex items-center mb-4 sm:mb-0"
+              >
+                <mat-icon class="h-8 mr-3 text-white text-2xl">description</mat-icon>
+
+                <span
+                  class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                  >G-Developers</span
+                >
+              </a>
+            </div>
+          </div>
+          <hr
+            class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+          />
+          <div
+            class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >
+            >
+            <a href="" class="hover:underline">Feel Free to Reach Out!</a>. All Rights
+            Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
